@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color:grey;
+}
+.filter-btns {
+  margin-top: 10px;
+  text-align: center;
+}
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: #153448;
+    font-family: inherit;
+    margin: 0;
+  }
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: #3C5B6F;
+  }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #3C5B6F;
+    min-width: 160px;
+    
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: white;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  .container {
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background-color:white;
+    }
+    
+    h1 {
+      text-align: center;
+    }
+    
+    input[type="text"] {
+      width: 70%;
+      padding: 8px;
+      margin-bottom: 10px;
+    }
+    
+    button {
+      padding: 8px 20px;
+      background-color: grey;
+      color: white;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      margin-right: 5px;
+    }
+    
+    button:hover {
+      background-color: #7AB2B2;
+    }
+    
+    .task-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+  }
+  
+  .task-item .delete-btn {
+      background-color: #dc3545;
+      color: #fff;
+      border: none;
+      padding: 4px 8px;
+      border-radius: 7px;
+      cursor: pointer;
+  }
+  
+  .task-item .delete-btn:hover {
+      background-color: #c82333;
+  }
+  
+  .completed {
+      text-decoration: line-through;
+      color: #888;
+  }
+  
+    
+    .delete-btn {
+      float: right;
+      background-color: #f44336;
+    }
+    
+
+    .task-item .edit-btn {
+      margin-right: 8px;
+      background-color: #F0EBE3;
+      color: #212529;
+      border: none;
+      padding: 4px 8px;
+      border-radius: 6px;
+      cursor: pointer;
+  }
+  
+  .task-item .edit-btn:hover {
+      background-color: #ffca2c;
+  }
