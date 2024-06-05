@@ -1,0 +1,165 @@
+body {
+    font-family: sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color:orange;
+} 
+
+.header{
+    
+    text-align: center;
+    padding: 10px;
+    color: rgb(0, 0, 0); 
+}
+h2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+nav ul {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+  
+}
+
+.ul1 li a:hover{
+    color: green;
+}
+
+.li1{
+    background-color: white;
+    
+}
+.li2{
+    background-color: white;
+}
+.li3{
+    background-color: white;
+}
+
+.li1:hover{
+    background-color: red;
+}
+.li2:hover{
+    background-color: red;
+}
+.li3:hover{
+    background-color: red;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+    color:black;
+   
+}
+
+nav a {
+    text-decoration: auto;
+    color:rgb(0, 0, 0);
+    
+    
+}
+
+section {
+    padding:40px;
+}
+
+.menu-item01 {
+    margin-bottom: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+   padding: 10px;
+   background-color: orange;
+   color: white;
+  
+}
+
+.gambar2{
+    height: 600px;
+    width: 600px;
+}
+.gambar3{
+    height: 600px;
+    width: 600px;
+}
+.gambar4{
+    height: 600px;
+    width: 600px;
+}
+.gambar5{
+    height: 600px;
+    width: 600px;
+}
+.gambar6{
+    height: 600px;
+    width: 600px;
+}
+.gambar7{
+    height: 600px;
+    width: 600px;
+}
+.gambar8{
+    height: 600px;
+    width: 600px;
+}
+.menu-item02 {
+    margin-bottom: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    
+    
+}
+.menu-item03 {
+    margin-bottom: 10px;
+    text-align: center;
+    border: 1px solid #000000;
+    padding: 10px;
+}
+.menu-item04 {
+    margin-bottom: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.menu-item05 {
+    margin-bottom: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.menu-item06 {
+    margin-bottom: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.menu-item07 {
+    margin-bottom: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.menu-item08 {
+    margin-bottom: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+
+footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+
